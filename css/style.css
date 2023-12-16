@@ -124,6 +124,8 @@ background-color: #404BBF;
 
           .mobile-menu-container {
             position: relative;
+            padding-top: 72px;
+            padding-bottom: 40px;
           }
 
           .mobile-menu-close-btn {
@@ -166,8 +168,9 @@ background-color: #404BBF;
 
           .mobile-menu {
             /* margin: 0; */
-            padding-top: 72px;
-            padding-bottom: 168px;
+            /* padding-top: 72px; */
+            /* padding-bottom: 168px; */
+            margin-bottom: 168px;
           }
 
           .mobile-menu-item:not(:last-child) {
@@ -197,7 +200,7 @@ background-color: #404BBF;
             font-weight: 500;
             line-height: 1.2;
             letter-spacing: 0.02em;
-            padding-bottom: 24px;
+            margin-bottom: 24px;
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
           }
 
@@ -212,7 +215,11 @@ background-color: #404BBF;
           }
           
           .mobile-adress {
-            padding-bottom: 48px;
+            
+          }
+
+          .mobile-link-list {
+            margin-bottom: 48px;
           }
 
           .mobile-list {
@@ -249,6 +256,10 @@ background-color: #404BBF;
             max-width: 320px;
             height: 432px;
             margin: auto;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 72px;
+            padding-bottom: 72px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -271,7 +282,6 @@ background-color: #404BBF;
             letter-spacing: 0.02em;
             max-width: 165px;
             text-align: center;
-            padding-top: 72px;
             margin-bottom: 72px;
             margin-right: auto;
             margin-left: auto;
@@ -296,13 +306,16 @@ background-color: #404BBF;
 /* ================/MAIN MENU MOBILE================== */
 
 /* =================BENEFITS MENU MOBILE================== */
+            .section {
+              padding: 96px 16px;
+            }
+
             .icon-list {
                 display: none;
             }
 
             .container-benefits {
-                padding-top: 96px;
-                padding-bottom: 96px;
+
             }
             
 
@@ -337,7 +350,7 @@ background-color: #404BBF;
             .team {
                 
                 background-color: #F4F4FD;
-                padding-bottom: 96px;
+                padding: 96px 16px;
             }
 
             .team-list {
@@ -347,7 +360,6 @@ background-color: #404BBF;
                 line-height: 1.11;
                 letter-spacing: 0.02em;
                 text-align: center;
-                padding-top: 96px;
                 margin-bottom: 72px;
             }
 
@@ -424,8 +436,7 @@ background-color: #404BBF;
 
              .container-portfolio-design {
               max-width: 320px;
-              padding-top: 96px;
-              padding-bottom: 96px;
+
              }
 
              .container-portfolio {
@@ -477,7 +488,7 @@ background-color: #404BBF;
 /* =====================FOOTER MENU MOBILE==================== */
              .footer {
               background-color: #2E2F42;
-              padding: 96px 0;
+              padding: 96px 16px;
              }
 
              .logo-footer {
@@ -496,6 +507,10 @@ background-color: #404BBF;
               color: #F4F4FD;
              }
 
+             .footer-desing-item {
+              margin-bottom: 72px;
+             }
+
              .footer-item {
               color: #F4F4FD;
               font-size: 16px;
@@ -503,7 +518,6 @@ background-color: #404BBF;
               line-height: 1.5;
               letter-spacing: 0.02em;
               margin-top: 16px;
-              margin-bottom: 72px;
               max-width: 264px;
               height: 72px;
              }
@@ -519,11 +533,14 @@ background-color: #404BBF;
               margin-bottom: 16px;
              }
 
+             .footer-link-item {
+              margin-bottom: 72px;
+             }
+
              .footer-list {
               display: flex;
               justify-content: center;
               gap: 16px;
-              margin-bottom: 72px;
              }
 
              .footer-icon {
@@ -563,6 +580,12 @@ background-color: #404BBF;
         margin-bottom: 16px;
       }
 
+      .footer-subscribe-form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
       .footer-subscribe-input {
         background-color: transparent;
         width: 288px;
@@ -576,7 +599,6 @@ background-color: #404BBF;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         color: #ffffff;
         outline: 0px solid transparent;
-        margin-bottom: 16px;
     }
 
     .footer-subscribe-input::placeholder {
@@ -604,6 +626,7 @@ transition: background-color 250ms linear;
 padding: 8px 24px;
 margin-right: auto;
 margin-left: auto;
+
 }
 
 /* =====================/FOOTER MENU MOBILE==================== */
@@ -943,6 +966,7 @@ margin-right: auto;
             background-color: #2E2F42;
             max-width: 768px;
             height: 436px;
+            padding-top: 112px;
            }
 
            @media screen and (min-resolution: 192dpi),
@@ -962,7 +986,6 @@ margin-right: auto;
             margin-bottom: 36px;
             margin-right: auto;
             margin-left: auto;
-            padding-top: 112px;
             text-align: center;
            }
 
@@ -1046,13 +1069,17 @@ margin-right: auto;
 
         .footer-desing {
           display: flex;
-          /* gap: 24px; */
-          /* row-gap: 72px; */
+          gap: 24px;
+          row-gap: 72px;
           flex-wrap: wrap;
         }
 
         .footer-desing-item {
-          margin-right: 24px;
+          margin-bottom: 0;
+      }
+
+      .footer-link-item {
+        margin-bottom: 0;
       }
 
 
@@ -1068,6 +1095,7 @@ margin-right: auto;
         .footer-subscribe-form {
           display: flex;
           gap: 24px;
+          flex-direction: row;
         }
 
         .footer-subscribe-input {
@@ -1085,7 +1113,7 @@ margin-right: auto;
           padding: 72px 24px 24px 24px;
         }
 
-        
+
         /* =================/BACKDROP TABLET MENU================ */
            
           }
@@ -1112,7 +1140,11 @@ margin-right: auto;
             }
 
             .mobile-contact {
-                
+              color: #434455;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 1.5;
+              letter-spacing: 0.02em;
             }
 
             .mobile-contact:not(:last-child) {
@@ -1132,6 +1164,7 @@ margin-right: auto;
                 background-color: #2E2F42;
                 max-width: 1440px;
                 height: 600px;
+                padding-top: 188px;
             }
 
             @media screen and (min-resolution: 192dpi),
@@ -1143,7 +1176,6 @@ margin-right: auto;
                }
 
             .main-button {
-                padding-top: 188px;
                 max-width: 496px;
                 margin-bottom: 48px;
             }
@@ -1172,7 +1204,7 @@ margin-right: auto;
             }
 
             .container-benefits {
-                padding: 120px 0 120px;
+                padding: 120px 156px;
             }
 
             .container-benefits-list {
@@ -1204,7 +1236,6 @@ margin-right: auto;
 
             /* ==================TEAM MENU DESKTOP==================== */
             .team-list {
-                padding-top: 120px;
             }
 
             .container-list-item {
@@ -1218,14 +1249,21 @@ margin-right: auto;
             }
 
             .team {
+              padding-top: 120px;
                 padding-bottom: 120px;
             }
             /* ==================/TEAM MENU DESKTOP==================== */
 
             /* ===================DESKTOP PORTFOLIO MENU=================== */
-            .container-portfolio-design {
+            .section {
+              display: flex;
+              justify-content: center;
               padding-top: 120px;
               padding-bottom: 120px;
+            }
+
+            .container-portfolio-design {
+
               max-width: 1158px;
             }
 
@@ -1303,12 +1341,13 @@ margin-right: auto;
 
             /* ====================DESKTOP FOOTER MENU===================== */
             .footer {
-              padding: 100px 0;
+              padding: 100px 159px 132px 156px;
             }
 
             .footer-desing {
               display: flex;
               align-items: baseline;
+              gap: unset;
           }
 
           .footer-desing-item {
@@ -1318,6 +1357,10 @@ margin-right: auto;
 
         .footer-subscribe {
           margin-left: 80px;
+      }
+
+      .footer-link {
+        display: block;
       }
 
 
