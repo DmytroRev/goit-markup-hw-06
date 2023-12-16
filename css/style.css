@@ -438,8 +438,8 @@ background-color: #404BBF;
 
              .section-portfolio {
               padding: 96px 16px;
-              /* display: flex;
-              justify-content: center; */
+              display: flex;
+              justify-content: center;
              }
 
              .container-portfolio-design {
