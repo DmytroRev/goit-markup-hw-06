@@ -1354,7 +1354,7 @@ margin-right: auto;
 
             .footer-desing {
               display: flex;
-              justify-content: ;
+              justify-content: center;
               align-items: baseline;
               gap: unset;
           }
