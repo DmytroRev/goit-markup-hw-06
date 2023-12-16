@@ -123,9 +123,12 @@ background-color: #404BBF;
           }
 
           .mobile-menu-container {
+            display: flex;
+            flex-direction: column;
             position: relative;
-            padding-top: 72px;
-            padding-bottom: 40px;
+            padding: 72px 24px 40px 16px;
+            max-width: 320px;
+            height: 100%;
           }
 
           .mobile-menu-close-btn {
@@ -164,13 +167,14 @@ background-color: #404BBF;
 
           .mobile-menu-navigation {
             /* display: flex; */
+            margin-bottom: 168px;
           }
 
           .mobile-menu {
             /* margin: 0; */
             /* padding-top: 72px; */
             /* padding-bottom: 168px; */
-            margin-bottom: 168px;
+            
           }
 
           .mobile-menu-item:not(:last-child) {
@@ -245,6 +249,10 @@ background-color: #404BBF;
 
           .mobile-window-icon {
             fill: #F4F4FD;
+          }
+
+          .mobile-adress-link {
+            margin-top: auto;
           }
 
 /* ==============/HEADER STYLE MOBILE================ */
