@@ -308,6 +308,8 @@ background-color: #404BBF;
 /* =================BENEFITS MENU MOBILE================== */
             .section-benefits {
               padding: 96px 16px;
+              display: flex;
+              justify-content: center;
             }
 
             .icon-list {
@@ -436,6 +438,8 @@ background-color: #404BBF;
 
              .section-portfolio {
               padding: 96px 16px;
+              /* display: flex;
+              justify-content: center; */
              }
 
              .container-portfolio-design {
@@ -494,6 +498,8 @@ background-color: #404BBF;
              .footer {
               background-color: #2E2F42;
               padding: 96px 16px;
+              display: flex;
+              justify-content: center;
              }
 
              .logo-footer {
@@ -1287,8 +1293,8 @@ margin-right: auto;
           }
 
           .container-portfolio-list {
-            width: 360px;
-            /* width: calc((100% - 48px) / 3); */
+            /* width: 360px; */
+            width: calc((100% - 48px) / 3);
             transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
             overflow: hidden;
           }
