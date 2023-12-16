@@ -370,6 +370,7 @@ background-color: #404BBF;
                 flex-wrap: wrap;
                 justify-content: center;
                 text-align: center;
+                row-gap: 72px;
             }
 
             .container-name {
@@ -381,12 +382,12 @@ background-color: #404BBF;
             border-radius: 0px 0px 4px 4px;
             box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
             max-width: 264px;
-            
+
             }
 
-            .name:not(:last-child) {
+            /* .name:not(:last-child) {
                 margin-bottom: 72px;
-            }
+            } */
             
 
             .name-list {
@@ -1045,11 +1046,6 @@ margin-right: auto;
             justify-content: center;
            }
 
-           
-           
-           .name:not(:last-child) {
-            margin-bottom: 0px;
-        }
 
         /* ==================TEAM MENU TABLET==================== */
 
