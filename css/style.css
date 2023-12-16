@@ -306,7 +306,7 @@ background-color: #404BBF;
 /* ================/MAIN MENU MOBILE================== */
 
 /* =================BENEFITS MENU MOBILE================== */
-            .section {
+            .section-benefits {
               padding: 96px 16px;
             }
 
@@ -434,9 +434,13 @@ background-color: #404BBF;
 
 /* =====================PORTFOLIO MENU MOBILE===================== */
 
+             .section-portfolio {
+              padding: 96px 16px;
+             }
+
              .container-portfolio-design {
               max-width: 320px;
-
+              
              }
 
              .container-portfolio {
@@ -1183,6 +1187,10 @@ margin-right: auto;
 
             /* =================BENEFITS DESKTOP MOBILE================== */
 
+            .section-benefits {
+              padding: 120px 16px;
+            }
+
             .logo-icon {
                 line-height: 0; 
             }
@@ -1204,7 +1212,7 @@ margin-right: auto;
             }
 
             .container-benefits {
-                padding: 120px 156px;
+                
             }
 
             .container-benefits-list {
@@ -1214,6 +1222,7 @@ margin-right: auto;
             }
 
             .container-benefits-item {
+              max-width: 264px;
                 width: calc((100% - 72px) / 4);
                 }
 
@@ -1255,11 +1264,10 @@ margin-right: auto;
             /* ==================/TEAM MENU DESKTOP==================== */
 
             /* ===================DESKTOP PORTFOLIO MENU=================== */
-            .section {
+            .section-portfolio {
               display: flex;
               justify-content: center;
-              padding-top: 120px;
-              padding-bottom: 120px;
+              padding: 120px 16px;
             }
 
             .container-portfolio-design {
@@ -1341,11 +1349,12 @@ margin-right: auto;
 
             /* ====================DESKTOP FOOTER MENU===================== */
             .footer {
-              padding: 100px 159px;
+              padding: 100px 16px;
             }
 
             .footer-desing {
               display: flex;
+              justify-content: ;
               align-items: baseline;
               gap: unset;
           }
@@ -1354,9 +1363,13 @@ margin-right: auto;
             margin-right: 120px;
         
         }
+        
+        .footer-link-item {
+          margin-right: 80px;
+        }
 
         .footer-subscribe {
-          margin-left: 80px;
+          
       }
 
       .footer-link {
