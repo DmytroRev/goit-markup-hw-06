@@ -28,7 +28,7 @@
                     </li>
                 </ul>
             </nav> 
-            <button class="mobile-menu-open-btn" type="button">
+            <button class="mobile-menu-open-btn" data-open type="button">
                 <svg class="mobile-menu-open-btn-icon" width="24" height="24" aria-label="mobile menu open icon">
                     <use href="./images/icons.svg#icon-open-menu"></use>
                 </svg>
@@ -524,7 +524,7 @@ placeholder="E-mail">
   <!-- is-open -->
   <div class="backdrop">
     <div class="modal">
-        <button class="modal-close-btn" type="button">
+        <button class="modal-close-btn"  type="button">
             <svg class="modal-close-btn-icon" 
             width="8" 
             height="8" 
@@ -609,10 +609,11 @@ placeholder="E-mail">
     </div>
   </div>
   <!-- MODAL WINDOW MENU MOBILE -->
-  <div class="mobile-menu-wrapper is-open">
+<!--  is-open -->
+  <div id="modal" class="mobile-menu-wrapper">
     <!-- container -->
     <div class="mobile-menu-container">
-        <button class="mobile-menu-close-btn" type="button">
+        <button class="mobile-menu-close-btn" data-close type="button">
             <svg class="mobile-menu-close-icon" width="8" height="8" aria-label="mobile menu close icon">
                 <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -671,6 +672,7 @@ placeholder="E-mail">
 </div>
     </div>
   </div>
+  <script src="./js/main.js" type="module"></script>
 </body>
 </html>
 <!-- <div class="rewiew-form-btn">
